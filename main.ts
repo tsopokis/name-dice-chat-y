@@ -13,7 +13,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("" + (getChar(letter)))
 })
 function construct_text (msg: string) {
-    return "" + name + ": " + msg
+    return "" + name + ":" + msg
 }
 input.onPinPressed(TouchPin.P2, function () {
     msg = msg.substr(0, msg.length - 1)
